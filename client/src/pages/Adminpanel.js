@@ -245,7 +245,7 @@ export default function AdminPanel() {
       .finally(() => setLoading(false));
   };
 
-  useEffect(() => { if (authed) fetchProjects(); }, [authed]);
+  useEffect(() => { if (authed) fetchProjects(); }, [authed]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleLogin = () => {
     sessionStorage.setItem("adminAuth", "true");

@@ -78,6 +78,7 @@ function ProjectCard({ title, desc, tags, img, dark, idx }) {
 }
 
 // ── Contact Form ──────────────────────────────────────────────────────────────
+// eslint-disable-next-line no-unused-vars
 function ContactForm({ dark }) {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('');
