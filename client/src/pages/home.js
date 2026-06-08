@@ -85,7 +85,7 @@ function ContactForm({ dark }) {
   const submit = async () => {
     if (!form.name || !form.email || !form.message) { setStatus('error'); return; }
     try {
-      await fetch('http://localhost:5000/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) });
+      await fetch('https://portfolio-0on0.onrender.com/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) });
     } catch (_) {}
     setStatus('sent'); setForm({ name: '', email: '', message: '' });
   };

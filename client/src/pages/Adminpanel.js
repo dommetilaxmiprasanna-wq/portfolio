@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ThemeCtx } from "./home";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://portfolio-0on0.onrender.com/api";
 const ADMIN_PASSWORD = "laxmi@admin123"; // 🔒 change this to your password
 
 // ── helpers ──────────────────────────────────────────────────────────────────
