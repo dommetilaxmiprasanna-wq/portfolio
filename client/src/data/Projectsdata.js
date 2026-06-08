@@ -13,16 +13,15 @@ export const projects = [
       "Women safety focused design"
     ],
     images: [
-      "/women safe/saferoute1.png",
-      "/women safe/saferoute2.png",
-      "/women safe/saferoute3.png",
-      "/women safe/saferoute4.png",
-      "/women safe/saferoute5.png",
-      "/women safe/saferoute6.png",
+      "/womensafe/saferoute1.png",
+      "/womensafe/saferoute2.png",
+      "/womensafe/saferoute3.png",
+      "/womensafe/saferoute4.png",
+      "/womensafe/saferoute5.png",
+      "/womensafe/saferoute6.png",
     ],
     githubUrl: "#",
     liveUrl: "#",
-    // ✅ Put your PDF as: public/docs/womensafe.pdf
     pdf: "/docs/womensafe.pdf",
     pdfName: "Women-Safe-Route-Report.pdf"
   },
@@ -46,11 +45,9 @@ export const projects = [
       "/election/elec4.png",
       "/election/elec5.png",
       "/election/elec6.png",
-
     ],
     githubUrl: "#",
     liveUrl: "#",
-    // ✅ Put your PDF as: public/docs/election.pdf
     pdf: "/docs/election.pdf",
     pdfName: "Campus-Election-Hub-Report.pdf"
   },
@@ -75,8 +72,7 @@ export const projects = [
     ],
     githubUrl: "#",
     liveUrl: "#",
-    // ✅ Put your PDF as: public/docs/college.pdf
-    pdf: "/docs/campus.docx",
-    pdfName: "College-Website-Report.docx"
+    pdf: "/docs/campus.pdf",
+    pdfName: "College-Website-Report.pdf"
   }
 ];
